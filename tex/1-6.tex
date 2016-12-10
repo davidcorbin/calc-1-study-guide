@@ -1,0 +1,40 @@
+%
+% Chapter 1.6
+%
+
+\section*{1.6 Limit Laws}
+
+Suppose that \(c\) is the constant and the limits 
+$$\lim_{x-a}f(x) \quad \text{ and } \quad \lim_{x \to a}g(x)$$
+exist. Then
+$$\textbf{1. }\lim_{x \to a}[f(x)+g(x)]=\lim_{x \to a}f(x) + \lim_{x \to a}g(x)$$
+$$\textbf{2. }\lim_{x \to a}[f(x)-g(x)]=\lim_{x \to a}f(x) - \lim_{x \to a}g(x)$$
+$$\textbf{3. }\lim_{x \to a}[cf(x)]=c\lim_{x \to a}f(x)$$
+$$\textbf{4. }\lim_{x \to a}[f(x)g(x)]=\lim_{x \to a}f(x) \times \lim_{x \to a}g(x)$$
+$$\textbf{5. }\lim_{x \to a}[\frac{f(x)}{g(x)}]=\frac{\lim_{x \to a}f(x)}{\lim_{x \to a}g(x)} \text{ if } \lim_{x \to a}g(x) \neq 0 $$
+$$\textbf{6. }\lim_{x \to a}[f(x)]^n=[\lim_{x \to a}f(x)]^n \text{ where } n \text{ is a postitive integer.}$$
+$$\textbf{7. }\lim_{x \to a}c=c$$
+$$\textbf{8. }\lim_{x \to a}x=a$$
+$$\textbf{9. }\lim_{x \to a}x^n=a^n \text{ where } n \text{ is a positive integer}$$
+$$\textbf{10. }\lim_{x \to a}\sqrt[n]x=\sqrt[n]a \text{ where } n \text{ is a positive integer}$$
+$$\textbf{11. }\lim_{x \to a}\sqrt[n]{f(x)}=\sqrt[n]{\lim_{x \to a}f(x)} \text{ where } n \text{ is a positive integer}$$
+
+\begin{enumerate}
+    \item The limit of the sums is the sum of the limits.
+    \item The limit of the difference is the difference of the limits.
+    \item The limit of a constant times a function is the constant times the limit of the function.
+    \item The limit of the product is the product of the limits.
+    \item The limit of the quotient is the quotient of the limits (provided that the limit of the denominator is not 0).
+\end{enumerate}
+
+\subsection*{Direct Substitution Property}
+
+If \(f\) is a polynomial or a rational function and \(a\) is in the domain of \(f\), then 
+$$\lim_{x \to a}f(x)=f(a)$$
+
+\subsection*{Sequeeze Theorem}
+
+If \(f(x) \leq g(x) \leq h(x)\) when x is near \(a\) (except at \(a\)) and 
+$$\lim_{x \to a}f(x)=\lim_{x \to a}h(x) = L$$
+then
+$$\lim_{x \to a}g(x) = L$$
