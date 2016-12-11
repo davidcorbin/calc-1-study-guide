@@ -1,0 +1,47 @@
+%
+% Chapter 3.4
+%
+
+\section*{3.4 Limits at Infinity}
+
+Let \(f\) be a function defined on some interval \((a, \infty)\). Then
+$$ \lim_{x \to \infty}f(x) = L $$
+means that the values of \(f(x)\) can be made arbitrarily close to \(L\) by requiring \(x\) to be sufficiently large.
+\\\\
+Let \(f\) be a function defined on some interval \((-\infty, a)\). Then
+$$ \lim_{x \to -\infty}f(x) = L $$
+means that the values of \(f(x)\) can be made arbitrarily close to \(L\) by requiring \(x\) to be sufficiently large negative.
+
+\subsection*{Horizontal Aymptotes}
+
+The line \(y=L\) is called a \textbf{horizontal asymptote} of the curve \(y=f(x)\) if either
+$$\lim_{x \to \infty}f(x)=L \quad \text{or} \quad \lim_{x \to -\infty}f(x)=L$$
+
+\subsubsection*{Theorem}
+
+If \(r>0\) is a rational number, then
+$$ \lim_{x \to \infty}\frac{1}{x^r}=0 $$
+If \(r>0\) is a rational number such that \(x^r\) is defined for all \(x\), then
+$$ \lim_{x \to -\infty}\frac{1}{x^r}=0 $$
+
+\subsection*{Definition of a Limit at Positive Infinity}
+
+Let \(f\) be a function defined on some interval \((a, \infty)\). Then
+$$ \lim_{x \to \infty}f(x)=L$$
+means that for every \(\epsilon>0\) there is a corresponding number \(N\) such that 
+$$ \text{if} \quad x>N \quad \text{then} \quad |f(x)-L|<\epsilon $$ 
+
+\subsection*{Definition of a Limit at Negative Infinity}
+
+Let \(f\) be a function defined on some interval \((-\infty, a)\). Then
+$$ \lim_{x \to -\infty}f(x)=L$$
+means that for every \(\epsilon>0\) there is a corresponding number \(N\) such that 
+$$ \text{if} \quad x<N \quad \text{then} \quad |f(x)-L|<\epsilon$$ 
+
+\subsection*{Definition of an Infinite Limit at Infinity}
+
+Let \(f\) be a function defined on some interval \((a, \infty)\). Then
+$$ \lim_{x \to \infty}f(x)=\infty$$
+means that for every positive number \(M\) there is a corresponding positive number \(N\) such that 
+$$ \text{if} \quad x>N \quad \text{then} \quad f(x)>M$$ 
+
