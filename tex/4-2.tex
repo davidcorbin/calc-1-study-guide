@@ -6,7 +6,7 @@
 
 \subsection*{Definition of a Definite Integral}
 
-If \(f\) is a function defined for \(a \leq x \leq b\), we divide the interval \([a, b]\) into \(n\) subintervals of equal width \(\Delta x=\frac{(b-a)}{n}\). We let \(x_0\) (\(=a\)), \(x_1\), \(x_2\),...,\(x_n\) (\(=b\)) be the endpoints of these subintervals and we let \(x_1^*, x_2^*, ..., x_n^*\) be any sample points in these subintervals, so \(x_i^*\) lies in the \(i\)th subinterval \([x_{i-1}, x_i]\). Then the definite integral of \(f\) from \(a\) to \(b\) is 
+If \(f\) is a function defined for \(a \leq x \leq b\), we divide the interval \([a, b]\) into \(n\) subintervals of equal width \(\Delta x=\frac{(b-a)}{n}\). We let \(x_0\) (\(=a\)), \(x_1\), \(x_2\), \ldots,\(x_n\) (\(=b\)) be the endpoints of these subintervals and we let \(x_1^*, x_2^*, \ldots, x_n^*\) be any sample points in these subintervals, so \(x_i^*\) lies in the \(i\)th subinterval \([x_{i-1}, x_i]\). Then the definite integral of \(f\) from \(a\) to \(b\) is 
 $$ \int_a^b f(x)dx=\lim_{n \to \infty} \sum_{i=1}^n f(x_i^*)\Delta x $$
 provided that this limit exists and gives the same value for all possible choices of sample points. If it does exist, we say that \(f\) is \textbf{integrable} on \([a, b]\).
 
@@ -18,7 +18,7 @@ for every integer \(n > N\) and for every choice of \(x_i^*\) in \([x_{i-1}, x_i
 
 \subsubsection*{Theorem}
 
-If \(f\) is continuous on \([a, b]\), or if \(f\) has only a finite number of jump discontinuities, then \(f\) is integrable on \([a, b]\); that is, the definite integral \(\int_a^bf(x)dx\) exists.
+If \(f\) is continuous on \([a, b]\), or if \(f\) has only a finite number of jump discontinuities, then \(f\) is integrable on \([a, b]\); that is, the definite integral \(\int_a^b f(x)dx\) exists.
 
 \subsubsection*{Theorem}
 
@@ -31,7 +31,7 @@ $$ \Delta x=\frac{b-a}{n} \quad \text{ and } \quad x_i=a+i \Delta x $$
 
 $$ \sum_{i=1}^n i=\frac{n(n+1)}{2} $$
 $$ \sum_{i=1}^n i^2=\frac{n(n+1)(2n+1)}{6} $$
-$$ \sum_{i=1}^n i^3= \bigg[ \frac{n(n+1)}{2} \bigg]^2 $$
+$$ \sum_{i=1}^n i^3= {\left [ \frac{n(n+1)}{2} \right]}^2 $$
 
 \subsection*{Formulae for Sigma Notation}
 
@@ -42,7 +42,7 @@ $$ \sum_{i=1}^n (a_i-b_i)=\sum_{i=1}^n a_i - \sum_{i=1}^n b_i $$
 
 \subsection*{Midpoint Rule}
 
-$$ \int_a^b f(x)dx \approx \sum_{i=1}^{n} f(\overline{x}_i) \Delta x = \Delta x [f(\overline{x}_1)+...+f(\overline{x}_n)]$$
+$$ \int_a^b f(x)dx \approx \sum_{i=1}^{n} f(\overline{x}_i) \Delta x = \Delta x [f(\overline{x}_1)+\cdots+f(\overline{x}_n)]$$
 where 
 $$ \Delta x = \frac{b-a}{n} \text{ and } \overline{x}_i = \frac{1}{2}(x_{i-1} + x_i) \text{ = midpoint of } [x_{i-1},x_i] $$
 
