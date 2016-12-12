@@ -1,0 +1,22 @@
+%
+% Chapter 3.8
+%
+
+\section*{3.8 Newton's Method}
+
+Newton's method (Newton-Raphson method) is a way for finding successively better approximations for roots of real-valued functions. The idea behind Newton's method is that the tangent line is close to the curve and so its \(x\)-intercept is close to the \(x\)-intercept of the curve (namely, root \(r\) that we are seeking).
+
+\subsection*{Using Newton's Method}
+
+To find the formula for \(x_2\), we use the fact that the slope of \(L\) is \(f'(x_1)\), so its equation is 
+$$ y-f(x_1)=f'(x_1)(x-x_1) $$
+Since the \(x\)-intercept of \(L\) is \(x_2\), we know that the point \((x_2, 0)\) is on the line, and so 
+$$ 0-f(x_1)=f'(x_1)(x_2-x_1) $$
+If \(f'(x_1) \neq 0\), we can solve this equation for \(x_2\):
+We use \(x_2\) as the second approximation to \(r\).
+Repeat this procedure with \(x_1\) being replaced by the second approximation \(x_2\) giving \(x_3\) and so on.
+\\\\\\
+In general if the \(n\)th approximation is \(x_n\) and \(f'(x) \neq 0\), then the next approximation is given by
+$$ x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)} $$
+If the numbers \(x_n\) become closer and closer to \(r\) as \(n\) becomes large, then we say that the sequence converges to \(r\) and we write 
+$$ \lim_{n \to \infty}x_n=r $$
